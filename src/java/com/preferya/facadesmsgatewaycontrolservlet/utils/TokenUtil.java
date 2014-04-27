@@ -22,7 +22,7 @@ public class TokenUtil {
     
     public static String sha1(MessageEntity message) {
         
-        String _textPlain = message.getAction() + message.getArgs() + PASSWORD;
+        String _textPlain = message.getAction() + message.getArgs() + message.getIsoLang() + PASSWORD;
         
         String _sha1 = "";
         try
