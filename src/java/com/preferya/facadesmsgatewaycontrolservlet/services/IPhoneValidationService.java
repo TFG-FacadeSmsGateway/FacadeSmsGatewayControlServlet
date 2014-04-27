@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-package com.preferya.facadesmsgateway.services;
+package com.preferya.facadesmsgatewaycontrolservlet.services;
 
-import com.preferya.facadesmsgateway.models.MessageEntity;
+import com.preferya.facadesmsgatewaycontrolservlet.models.MessageEntity;
 
 /**
  *

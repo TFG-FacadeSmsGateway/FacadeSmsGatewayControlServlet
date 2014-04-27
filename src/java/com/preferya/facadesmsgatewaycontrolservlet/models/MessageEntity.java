@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.preferya.facadesmsgateway.models;
+package com.preferya.facadesmsgatewaycontrolservlet.models;
 
 import java.io.Serializable;
 import java.util.ArrayList;

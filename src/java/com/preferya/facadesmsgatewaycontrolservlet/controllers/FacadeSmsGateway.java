@@ -4,12 +4,12 @@
  * and open the template in the editor.
  */
 
-package com.preferya.facadesmsgateway.controllers;
+package com.preferya.facadesmsgatewaycontrolservlet.controllers;
 
-import com.preferya.facadesmsgateway.models.MessageEntity;
-import com.preferya.facadesmsgateway.services.PhoneValidationService;
-import com.preferya.facadesmsgateway.services.IPhoneValidationService;
-import com.preferya.facadesmsgateway.services.PhoneValidationFactory;
+import com.preferya.facadesmsgatewaycontrolservlet.models.MessageEntity;
+import com.preferya.facadesmsgatewaycontrolservlet.services.PhoneValidationService;
+import com.preferya.facadesmsgatewaycontrolservlet.services.IPhoneValidationService;
+import com.preferya.facadesmsgatewaycontrolservlet.services.PhoneValidationFactory;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
