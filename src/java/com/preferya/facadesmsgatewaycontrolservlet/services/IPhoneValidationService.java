@@ -16,7 +16,7 @@ public interface IPhoneValidationService {
     
     public boolean checkIntegrity(MessageEntity message, String token);
     
-    public void senQueue(MessageEntity message);
+    public void sendQueue(MessageEntity message);
 
     public void sendExternalQueue(MessageEntity _message, String iso_lang);
     

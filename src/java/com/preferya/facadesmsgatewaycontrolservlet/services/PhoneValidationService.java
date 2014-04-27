@@ -48,7 +48,7 @@ public class PhoneValidationService implements IPhoneValidationService {
     }
     
     //This method call to auxiliary class to send message with RabbitMQ.
-    public void senQueue(MessageEntity message) {
+    public void sendQueue(MessageEntity message) {
         try {
             this.internalQueue = new RabbitMQUtils();
             this.internalQueue.sendMessage(message);

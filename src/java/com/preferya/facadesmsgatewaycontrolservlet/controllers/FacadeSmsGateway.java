@@ -56,7 +56,7 @@ public class FacadeSmsGateway extends HttpServlet {
         MessageEntity _message = new MessageEntity(_action, _args, _iso_lang);
         if(_validationService.checkIntegrity(_message, _token)){ //If Token matches
             if(_action.equalsIgnoreCase("stop") || _action.equalsIgnoreCase("add_country")){ //If action is not stop
-                _validationService.senQueue(_message);
+                _validationService.sendQueue(_message);
                 out.print("OK! Message sends.");
             }else{ // If action is stop
                 _validationService.sendExternalQueue(_message, _iso_lang);
