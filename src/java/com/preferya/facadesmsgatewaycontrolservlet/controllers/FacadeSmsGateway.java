@@ -60,7 +60,7 @@ public class FacadeSmsGateway extends HttpServlet {
                 out.print("OK! Message sends.");
             }else{ // If action is stop
                 _validationService.sendExternalQueue(_message, _iso_lang);
-                out.print("OK! Message sends, so the server's stopping soon.");
+                out.print("OK! Message sends");
             }
         }else{ //If token doesn't match
             out.print("FAIL! Token doesn't match.");
